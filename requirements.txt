@@ -3,7 +3,7 @@ numpy
 pandas
 matplotlib
 seaborn
-nltk
+nltk>=3.9.4
 PySastrawi
 torch
 wordcloud
