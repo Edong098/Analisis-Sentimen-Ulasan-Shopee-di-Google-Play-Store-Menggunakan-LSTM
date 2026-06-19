@@ -1,0 +1,27 @@
+{
+  "vocab_size": 11910,
+  "max_length": 100,
+  "embedding_dim": 128,
+  "total_data": 29974,
+  "label_mapping": {
+    "negatif": 0,
+    "netral": 1,
+    "positif": 2
+  },
+  "sentiment_distribution": {
+    "positif": 16279,
+    "netral": 8787,
+    "negatif": 4908
+  },
+  "rating_distribution": {
+    "1": 10793,
+    "2": 2572,
+    "3": 2543,
+    "4": 2044,
+    "5": 12022
+  },
+  "feature_extraction": "Word2Vec",
+  "word2vec_window": 5,
+  "word2vec_min_count": 2,
+  "word2vec_vector_size": 128
+}
